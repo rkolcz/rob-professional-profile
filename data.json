@@ -1,0 +1,86 @@
+{
+    "en": {
+        "name": "Robert's Portfolio",
+        "icon": "./assets/images/home/paul.png",
+        "pages": [
+            {
+                "icon": "./assets/images/home/paul.png",
+                "name": "About",
+                "link": "/about",
+                "content": "content/about-en.md"
+            },
+            {
+                "icon": "📖",
+                "name": "Blogs",
+                "link": "/blogs",
+                "content": "content/blogs-en.html"
+            },
+            {
+                "icon": "bi bi-suitcase-lg-fill",
+                "name": "Work Experience",
+                "link": "/experience",
+                "content": "content/experience-en.md"
+            },
+            {
+                "icon": "🔥",
+                "name": "Open source",
+                "link": "/open-source",
+                "content": "content/projects-en.html"
+            },
+            {
+                "icon": "✨",
+                "name": "Skills",
+                "link": "/skills",
+                "content": "content/skills-en.md"
+            },
+            {
+                "icon": "✉️",
+                "name": "Contact",
+                "link": "/contact",
+                "content": "content/contact-en.md"
+            }
+        ]
+    },
+    "pl": {
+        "name": "Portfolio Roberta",
+        "icon": "./assets/images/home/paul.png",
+        "pages": [
+            {
+                "icon": "./assets/images/home/paul.png",
+                "name": "O mnie",
+                "link": "/about",
+                "content": "content/about-pl.md"
+            },
+            {
+                "icon": "📖",
+                "name": "Blogi",
+                "link": "/blogs",
+                "content": "content/blogs-pl.html"
+            },
+            {
+                "icon": "bi bi-suitcase-lg-fill",
+                "name": "Doświadczenie",
+                "link": "/experience",
+                "content": "content/experience-pl.md"
+            },
+            {
+                "icon": "🔥",
+                "name": "Open source",
+                "link": "/open-source",
+                "content": "content/projects-pl.html"
+            },
+            {
+                "icon": "✨",
+                "name": "Umiejętności",
+                "link": "/skills",
+                "content": "content/skills-pl.md"
+            },
+            {
+                "icon": "✉️",
+                "name": "Kontakt",
+                "link": "/contact",
+                "content": "content/contact-pl.md"
+            }
+        ]
+    }
+}

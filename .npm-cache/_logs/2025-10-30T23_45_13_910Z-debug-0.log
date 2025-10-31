@@ -1,0 +1,76 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.5.0
+2 info using node@v18.20.2
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/robbie/Downloads/notion/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/Users/robbie/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 8ms
+17 timing npm:load:configload Completed in 8ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install" "--cache" ".npm-cache"
+23 timing npm:load:setTitle Completed in 7ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Users/robbie/Downloads/notion/.npm-cache/_logs/2025-10-30T23_45_13_910Z-
+26 verbose logfile /Users/robbie/Downloads/notion/.npm-cache/_logs/2025-10-30T23_45_13_910Z-debug-0.log
+27 timing npm:load:logFile Completed in 5ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 30ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 30ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 1ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 33ms
+40 timing arborist:ctor Completed in 0ms
+41 timing reify:loadTrees Completed in 44ms
+42 timing reify:diffTrees Completed in 2ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 1ms
+45 timing reify:rollback:createSparse Completed in 0ms
+46 timing reify:rollback:retireShallow Completed in 0ms
+47 timing command:install Completed in 82ms
+48 verbose stack Error: EACCES: permission denied, mkdir '/Users/robbie/Downloads/notion/node_modules/fsevents'
+49 verbose cwd /Users/robbie/Downloads/notion
+50 verbose Darwin 24.6.0
+51 verbose node v18.20.2
+52 verbose npm  v10.5.0
+53 error code EACCES
+54 error syscall mkdir
+55 error path /Users/robbie/Downloads/notion/node_modules/fsevents
+56 error errno -13
+57 error [Error: EACCES: permission denied, mkdir '/Users/robbie/Downloads/notion/node_modules/fsevents'] {
+57 error   errno: -13,
+57 error   code: 'EACCES',
+57 error   syscall: 'mkdir',
+57 error   path: '/Users/robbie/Downloads/notion/node_modules/fsevents'
+57 error }
+58 error
+58 error The operation was rejected by your operating system.
+58 error It is likely you do not have the permissions to access this file as the current user
+58 error
+58 error If you believe this might be a permissions issue, please double-check the
+58 error permissions of the file and its containing directories, or try running
+58 error the command again as root/Administrator.
+59 verbose exit -13
+60 timing npm Completed in 281ms
+61 verbose unfinished npm timer reify 1761867914106
+62 verbose unfinished npm timer reify:createSparse 1761867914187
+63 verbose code -13
+64 error A complete log of this run can be found in: /Users/robbie/Downloads/notion/.npm-cache/_logs/2025-10-30T23_45_13_910Z-debug-0.log
